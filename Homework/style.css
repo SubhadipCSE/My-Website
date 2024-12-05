@@ -15,7 +15,7 @@ body {
   letter-spacing: 20px;
 }
 footer {
-  display: fixed;
+  position: fixed;
   bottom: 0;
   text-align: fixed;
   text-decoration: underline;
