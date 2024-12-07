@@ -18,14 +18,14 @@ body {
   bottom: 32px;
 }
 #box3 {
-  background-color: chocolate;
+  background-color: rgb(230, 21, 14);
   position: relative;
   top: 50px;
 }
 #box4 {
   background-color: chartreuse;
   position: sticky;
-  right: 45px;
+  top: 45px;
 }
 .parent {
   position: relative;
