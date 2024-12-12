@@ -66,3 +66,9 @@ form{
   height: 300px;
   width: 1300px;
 }
+.maincontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
