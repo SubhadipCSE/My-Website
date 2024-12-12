@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h3>home</h3>
+        <h3>applications</h3>
+        <h3>srevices</h3>
+        <h3>about</h3>
+        <h3>more</h3>
+        <h3>career</h3>
+        <button type="login">log in</button>
+        <button type="registration">Registration</button>
+      </div>
+      <div class="heading">
+        <h1>Registration Form</h1>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="maincontent">
+        <form action="">
+          <h2>Buisness Details :</h2>
+          <label for="name"> Startup Name :</label>
+         
+          <input type="text" name="Startup" id="name" placeholder="Enter Your buisness Name " autofocus required />
+          
+          <label for="owner">Owner's Name :</label>
+          <input type="text" name="owner" id="owner" placeholder="Enter Owner Name" required>
+
+          <label for="">Buisness Type :</label>
+          <input type="radio" name="type" id="B2B" value="B2B">
+          <label for="B2B">B2B</label>
+          <input type="radio" name="type" id="B2C" value="B2C">
+          <label for="B2C">B2C</label>
+          <input type="radio" name="type" id="All" value="All">
+          <label for="All">All</label>
+          <label for="category">Choose a category:</label>
+        <select id="category" name="category">
+            <option value="technology">1. Technology</option>
+            <option value="health-wellness">2. Health & Wellness</option>
+            <option value="education">3. Education</option>
+            <option value="ecommerce">4. E-commerce</option>
+            <option value="fintech">5. FinTech</option>
+            <option value="sustainability">6. Sustainability</option>
+            <option value="entertainment">7. Entertainment</option>
+            <option value="food-beverage">8. Food & Beverage</option>
+            <option value="ai">9. Artificial Intelligence</option>
+            <option value="blockchain">10. Blockchain</option>
+        </select>
+        <br><br>
+        <label for="logo">Buisness Logo :</label>
+        <input type="file" name="logo" id="logo">
+          
+
+
+          <h2>Comunication Details : </h2>
+        <label for="mobile">Mobile Number :</label>
+        <input type="number" name="number" id="number" placeholder="Ex: 7407125405" required max="9999999999". min="1000000000">
+        <label for="email"> Email Id :</label>
+        <input type="email" name="email" id="email" placeholder="Ex: ssubhadip721@gmail.com" required>
+        <br><br><br>
+       
+        <input type="checkbox" name="term and condition" id="TC">
+         <label for="TC"> I accept all the terms and conditions of the company.
+                     I will maintain all the rules and regulations of agreement.</label>
+            <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

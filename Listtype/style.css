@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+}
+.child{
+    background-color:white ;
+    height: 15px;
+    width: 95px;
+    margin: 1px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100px;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+
+
+p{
+    font-size: 4px;
+    text-transform: capitalize;
+}
+    
+
+h1{
+    font-size: 5px;
+    text-align: end;
+}
+
+img{
+    height: 15px;
+    width: 22px;
+}
+
+.price{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 15px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
