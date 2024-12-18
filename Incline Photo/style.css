@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+img{
+    border: 15px solid plum;
+    border-radius: 40px;
+    box-shadow: 3px 4px 8px 6px #382c5596;
+}
+.allphotos>div{
+    position: absolute;
+
+}
+.allphotos{
+    position: relative;
+
+}
+.first1{left: 45px;   transform: rotate(-5deg);}
+.first2{left: 200px;  transform: rotate(+5deg);}
+.first3{left: 400px;  transform: rotate(-5deg);}
+.first4{left: 600px;  transform: rotate(+5deg);}

@@ -1,0 +1,97 @@
+ul {
+  list-style-type: none;
+}
+* {
+  padding: 0;
+  margin: 0%;
+}
+nav {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding-button: 15px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.input_fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 35px;
+  background-color: orange;
+ 
+
+}
+input{
+  padding: 10px;
+  width: 100%;
+}
+textarea{
+  padding: 10px;
+  width: 100%;
+}
+.contactinfo {
+  width: 40%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+}
+.color_red{
+  color: purple;
+  gap: 30px;
+}
+section{
+  display: flex;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+    gap: 10px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 20px;
+  background-color: pink;
+  height: 250px;
+}
+.text_transform{
+  text-transform: capitalize;
+}
+h3{
+  text-transform: capitalize;
+}
+button{
+  background-color: black;
+  color: white;
+  align-self: self-start;
+ padding: 7px;
+ border-radius: 2px;
+}
+
+.position_button{
+  display: flex;
+  align-items: start;
+  width: 100%;
+ 
+}
+.navigation li:hover{
+  text-decoration: underline;
+}
