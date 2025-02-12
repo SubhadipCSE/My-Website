@@ -3,10 +3,11 @@
   margin: 0;
 }
 #backgrad{
-  /* width: 309.75px;
+  width: 309.75px;
   height: 300px;
-  background-color: rgb(121, 18, 18);
-  background-image: radial-gradient(red yellow green)} */}
+  background: linear-gradient(to bottom right rgb(52, 52, 155) rgb(187, 73, 73));
+  
+}
 .background {
   height: 100vh;
   width: 100vw;
@@ -254,10 +255,11 @@ height: 316px;
 width: 1287px;
 }
 .same:hover{
-transform: scale(1.2rem);
+transform: scale(1.2);
 }
 .same{
-  transition: all 1.1s;
+  
+  transition: 1s;
   border-radius: 15px;
   list-style-type: none;
   padding: 8px 22px;
@@ -281,15 +283,14 @@ z-index: 1;
   bottom: 130px;
   right: 20px;
   font-weight: bold;
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 1px white;
   font-size: 100px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
   /* z-index: -1; */
 }
 .same_image:hover{
-  transform: scale(1.1);
-z-index: 1;
+ 
 }
 .same_image{
   transition: 1s;
@@ -301,8 +302,12 @@ z-index: 1;
   
 }
 .list_div{
+ 
+padding: 18px;
+  overflow-x: scroll;
+  overflow-y: hidden;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* gap: px; */
 }
 .more{
@@ -324,7 +329,7 @@ z-index: 1;
   background-size: cover;
     height: 300px;
     width: 309.75px;
-    /* background-color: aqua; */
+    background: linear-gradient(to bottom right blue red);
     border-radius: 15px;
 }
 .sameh3{
@@ -492,4 +497,8 @@ width: 124px;
   border-radius: 0.25rem;
   background-color: rgba(240, 255, 255, 0);
   border: 0.5px #FFFFFFB3 solid;
+ }
+ .footer{
+ display: flex;
+ gap: 60px;
  }
