@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(150, 80, 219, 0.795);
+  background-image: url(16927626926400.jpg);
+  background-size: cover;
+}
+.WELCOME {
+  color: white;
+  font-family: algerian;
+  text-align: center;
+  background-color: rgba(210, 105, 30, 0.527);
+}
+.first {
+  background-color: aquamarine;
+  /* background-image: url(1697157238126kj\ -\ Copy.jpg);
+    background-size: cover; */
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+.parent {
+  background-color: rgba(0, 139, 139, 0.575);
+  display: flex;
+  justify-content: space-between;
+}
+#div1 {
+  background-color: rgba(0, 0, 255, 0.568);
+}
+#div2 {
+  background-color: rgba(135, 207, 235, 0.555);
+}
+#div3 {
+  background-color: rgba(189, 183, 107, 0.521);
+}
+#div4 {
+  background-color: rgba(255, 140, 0, 0.534);
+}
+#div5 {
+  background-color: rgba(30, 143, 255, 0.548);
+}
+#div6 {
+  background-color: rgba(0, 0, 139, 0.637);
+}
